@@ -13,3 +13,5 @@ uint16_t eCO = (data[0] << 8) | data[1];                                        
                                                                                                       byte together. So we can have 16 bits
  HAL_UART_Transmit(&huart2,(uint8_t*)buffer,strlen(buffer), HAL_MAX_DELAY);                          // this function is used to send the data from 
                                                                                                          stm32 to pc via UART protocol.
+
+![image](https://github.com/user-attachments/assets/ab1620b2-027a-4234-a1fe-ba4fe27b7e86)
